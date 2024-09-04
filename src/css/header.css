@@ -106,9 +106,8 @@
   padding: 16px;
   text-align: center;
   transition-property: color, background-color;
-  transition-duration: 0,8s;
+  transition-duration: 0, 8s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 .header_sing_button:hover,
 .header_sing_button:focus {
@@ -146,7 +145,7 @@
   position: absolute;
   right: 20px;
   top: 20px;
-  background-color: rgba(105, 185, 255, 0.605);
+  background-color: rgba(105, 185, 255, 0);
   border: none;
 }
 .header_icon_close {
@@ -154,7 +153,15 @@
   justify-content: center;
   width: 32px;
   height: 32px;
-  fill: #121212;
+  fill: #948989;
+  flex-shrink: 0;
+}
+.header_icon_close:hover {
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  fill: rgba(105, 185, 255, 0.703);
   flex-shrink: 0;
 }
 .burger_list_title {
