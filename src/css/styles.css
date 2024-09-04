@@ -4,10 +4,11 @@
 @import url('./hero.css');
 /* @import url('./dvertisement.css'); */
 @import url('./about.css');
-@import url('./courses.css');
-@import url('./mentors.css');
-@import url('./signup.css');
-@import url('./reviews.css');
+@import url('./comforts.css');
+@import url('./services.css');
+@import url('./how.css');
+@import url('./contacts.css');
+
 @import url('./footer.css');
 /* 
 :root {

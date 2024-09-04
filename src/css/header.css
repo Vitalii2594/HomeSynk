@@ -19,6 +19,15 @@
   text-transform: uppercase;
   color: rgb(105, 185, 255);
 }
+.header-us-span {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+
 .header_nav_button {
   display: flex;
   align-items: center;
