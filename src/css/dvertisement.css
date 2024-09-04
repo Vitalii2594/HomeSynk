@@ -1,0 +1,57 @@
+.dvert-line {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+
+.dvert-inner {
+  display: flex;
+  overflow: hidden;
+}
+
+.dvert-line-text {
+  color: #bea69e;
+  line-height: 1.14;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  margin: 20px 0;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: advertLine;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.white-dvert {
+  color: #fff;
+}
+
+@keyframes advertLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+  .dvert-line-text {
+    font-size: 40px;
+    line-height: 1.25;
+    margin: 24px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .dvert-line-text {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+}
